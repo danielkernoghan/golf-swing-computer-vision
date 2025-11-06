@@ -4,7 +4,7 @@ import mediapipe as mp
 mp_pose = mp.solutions.pose
 mp_drawing = mp.solutions.drawing_utils
 
-image_path = "walking.jpg"
+image_path = "your-image.jpg" # Replace this path woth your image
 image = cv2.imread(image_path)
 
 with mp_pose.Pose(static_image_mode=True) as pose:
